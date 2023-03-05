@@ -1,0 +1,50 @@
+:root {
+  /* HERE I HAD USED SOME CUSTOMIZE COLOR 
+  ---------------------------------------*/
+  --color-primary: #26ab75;
+  --color-primary-dark: #288c61;
+  --color-bg-primary: #1a1a1a;
+  --color-bg-secondary: #242424;
+  --color-bg-footer: #151515;
+  --color-white: #ffffff;
+  --color-text: #676767;
+  --color-border: #373737;
+
+  /* FONT & TYPOGRAPHY 
+  ----------------- */
+  --ff-body: "space Grotesk", sans-serif;
+  /* font-size */
+  --fs-sm: 1.4rem;
+  --fs-md: 1.6rem:
+  --fs-lg: 2rem;
+  --fs-xl: 2.4rem;
+  -fs-xxl: 3.2rem;
+  --fs-biggest: clamp(3rem, 8vw, 5rem);
+  /* font-weight */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Transition & Z-index 
+  ----------------------*/
+  --zindex-menu: 1000;
+  --zindex-fixed: 1010;
+
+  /* Width & Height 
+  -------------- */
+  --width-container: 98rem;
+  --height-container: 10rem;
+  --height-header--scroll: 8rem;
+
+  /* Transition & box shadow 
+  ----------------------- */
+  --transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+* {
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+}

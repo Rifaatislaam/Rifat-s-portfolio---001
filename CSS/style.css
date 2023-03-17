@@ -116,6 +116,7 @@ main {
   align-items: center;
   width: 100%;
   height: 100%;
+  margin: 15px 5px;
 }
 .nav-brand {
   font-size: var(--fs-sm);
@@ -152,6 +153,12 @@ main {
 /* RESPONSIVE NAVIGATION BAR DESIGN  */
 
 @media screen and (max-width: 968px) {
+  /* nav {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+  } */
+
   .nav-list {
     flex-direction: column;
     justify-content: center;
@@ -179,4 +186,7 @@ main {
     z-index: var(--zindex-fixed);
   }
   
+  li a {
+    color: aliceblue;
+  }
 }
